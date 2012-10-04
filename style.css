@@ -1,0 +1,64 @@
+/* 
+Theme Name: Twenty Twelve Child for Hacking History
+Theme URI: http://hackinghistory.ca
+Description: Very simple Theme for Hacking History Students
+Version: 0.1
+Author: Jon De Biasi
+Author URI: http://hackinghistory.ca
+Template: twentytwelve
+*/
+
+@import url("../twentytwelve/style.css");
+
+body, input, textarea {
+	color: #373737;
+	font: 15px "Times New Roman", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	line-height: 1.625;
+}
+
+.widget-title {
+	color: #999;
+        font: 15px "Time New Roman" 
+        font-size: 100px;
+	font-weight: 5000;
+	letter-spacing: 0.1em;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+
+#page {
+border:2px solid #000;
+}
+
+
+/* Right Content */
+.left-sidebar #primary {
+	float: right;
+	margin: 0 0 0 -26.4%;
+	width: 105%;
+}
+
+.left-sidebar #secondary {
+	float: left;
+	margin-left: 7.6%;
+	margin-right: 0;
+	width: 13.5%;
+}
+
+.entry-content, {
+	margin: 0 auto;
+	width: 68.9%;
+}
+iframe.whatwasthere {
+	width:100%;
+}
+div.histphotodisplay {
+    float:left;
+    margin-right: 1em;
+}
+
+.slideshow-set { width: auto ; }
+
+.slideshow-set img { max-height: 100%; display: block; align: center;
+}
